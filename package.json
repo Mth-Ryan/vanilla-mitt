@@ -1,0 +1,15 @@
+{
+  "name": "vanilla-mitt",
+  "version": "1.0.0",
+  "description": "Emit global events with mitt from html elements",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": ""
+  },
+  "keywords": [
+    "mitt",
+    "vanilla.js"
+  ],
+  "author": "Mateus Ryan <mthryan@protonmail.com>",
+  "license": "MIT"
+}
