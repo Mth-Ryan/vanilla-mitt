@@ -2,14 +2,23 @@
   "name": "vanilla-mitt",
   "version": "1.0.0",
   "description": "Emit global events with mitt from html elements",
-  "main": "dist/index.js",
+  "main": "dist/index.min.js",
   "scripts": {
-    "build": ""
+    "build": "rollup -c"
   },
   "keywords": [
     "mitt",
     "vanilla.js"
   ],
   "author": "Mateus Ryan <mthryan@protonmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^2.79.1"
+  },
+  "dependencies": {
+    "mitt": "^3.0.1"
+  }
 }
