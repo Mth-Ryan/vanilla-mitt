@@ -1,6 +1,6 @@
 {
   "name": "vanilla-mitt",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Emit global events with mitt from html elements",
   "main": "dist/index.min.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "vanilla.js"
   ],
   "author": "Mateus Ryan <mthryan@protonmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mth-Ryan/vanilla-mitt.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^26.0.1",
